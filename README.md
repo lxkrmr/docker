@@ -4,6 +4,14 @@ This is a follow along of the spring.io guide:
 
 https://spring.io/guides/gs/spring-boot-docker/
 
+## FYI
+
+### Passing an environment variable to the Docker Container
+
+Use the -e flag when running the docker container
+
+    docker run -e "ENV_VARIABLE=foo" -p 8080:8080 -t lxkrmr/spring-boot-docker
+
 ## Learnings
 
 ### Apple Silicon
